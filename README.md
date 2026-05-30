@@ -9,6 +9,9 @@ Video 3: https://www.tiktok.com/@joecoxtech/video/7574895253094780215
 
 | Command | Description | Video |
 |---------|-------------| ----- |
+| If searching inside File Explorer is specifically what's dragging it down, your search index might be bloated. You can force Windows to delete and rebuild it.|
+
+| Press `Win + R` to open the Run dialog.| Type `control` and hit **Enter** to open the classic Control Panel | top-right search bar of Control Panel, type **Indexing Options** and click on it. | Click **Advanced**. | Under the Index Settings tab, click the **Rebuild** button | ⚠️ **Note:** This will temporarily make searching even slower while it indexes your files from scratch, but once finished, your searches should be lightning-fast.|
 | winget upgrade --all | Updates all apps on your system, replacing chocolatey or manual updating | Video 1 |
 | sfc /scannow | Repairs corrupt system files | Video 1 |
 | DISM /Online /Cleanup-Image /Restore Health | Deep repair tools | Video 1 |
